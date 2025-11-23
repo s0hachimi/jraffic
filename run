@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac --module-path /home/sohachimi/Desktop/jraffic/lib/javafx-sdk-17.0.17/lib --add-modules javafx.controls -d build  Main.java
+java --module-path /home/sohachimi/Desktop/jraffic/lib/javafx-sdk-17.0.17/lib --add-modules javafx.controls -cp build Main
+
